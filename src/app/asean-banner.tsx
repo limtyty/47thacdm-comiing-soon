@@ -1,4 +1,3 @@
-import Image from "next/image"
 
 export default function Component() {
     return (
@@ -29,8 +28,10 @@ export default function Component() {
                 </div>
 
                 {/* Event details */}
-                <div className="z-2 text-sm sm:text-lg md:text-xl lg:text-2xl  lg:text-amber-400 text-shadow-lg/20 text-white font-semibold">
-                    13-15 OCTOBER 2025 | PHNOM PENH, CAMBODIA
+                <div className="z-2  lg:bg-white/50 backdrop-blur-sm border lg:border-white/20 rounded-lg p-4 ">
+                    <div className=" z-2 text-sm sm:text-lg md:text-xl lg:text-2xl  lg:text-black text-shadow-lg text-white font-semibold">
+                        13-15 OCTOBER 2025 | PHNOM PENH, CAMBODIA
+                    </div>
                 </div>
 
                 {/* Registration note */}
